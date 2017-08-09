@@ -11,3 +11,12 @@ questions.
 
 Answers are saved in a database for later extraction in CSV files.
 
+## Making the module
+
+```
+cd META-INF
+ant
+```
+
+This creates *perception.jar* which can be installed as a module in a
+Hexagon site.
