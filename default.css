@@ -1,0 +1,141 @@
+div.signature input.signature {
+    width: 300px;
+}
+div.signature {
+    margin-bottom: 30px;
+}
+
+div.participantAttributes {
+    text-align: center;
+}
+div.participantAttributes table.db_table {
+    margin: auto;
+}
+
+div.media {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.questions table.db_table, div.participantAttribute table.db_table {
+    width: 100%;
+}
+
+div.questions table.db_table th, div.participantAttribute table.db_table th {
+    width: 1%;
+    white-space: nowrap;
+}
+div.questions table.db_table td {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+div.questions table.db_table td span.range_label_min, div.questions table.db_table td span.range_label_max {
+    height: 100%;
+    min-width: 75px;
+    vertical-align: middle;
+    display: inline-block;
+}
+div.questions table.db_table td span.range_label_min {
+    text-align: right;
+}
+div.questions table.db_table td span.range_label_max {
+    text-align: left;
+}
+
+/* make radio selects a slider-like horizontal scale */
+div.questions div.select {
+    width: 100%;
+    border-top: 1px solid black;
+    height: 60px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    top: 16px;
+}
+div.questions div.select_option {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    top: -16px;
+    padding: 0px;
+    width: 70px;
+}
+div.questions div.select_option span.control, div.select_option span.label {
+    text-align: center;
+    vertical-align: top;
+    height: 30px;
+    padding: 0px;
+}
+div.questions div.select_option span.control input {
+    vertical-align: middle;
+    height: 100%;
+    margin: 0px;
+}
+th.db_form_label, th.db_form_label_required {
+    vertical-align: top;
+}
+div.questions th.db_form_label_required:after {
+   content: '';
+}
+div.participantAttributes td.db_submit, div.questions td.db_submit, div.comment div.controls {
+    padding-top: 16px;
+    text-align: center;
+}
+
+div.participantAttributes button.db_submit, div.questions td.db_submit button.db_submit {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.questions {
+    text-align: center;
+}
+
+div.progress progress {
+    width: 100%;
+    margin: 10px;
+}
+
+div.comment div.control textarea {
+    margin: auto;
+    width: 100%;
+    height: 200px;
+}
+
+div.questions input[type="range"] {
+    width: 70%;
+    vertical-align: middle;
+}
+
+div.participantAttribute input[type="text"] {
+    width: 95%;
+}
+
+div.participantAttribute td.db_form_field_description {
+    display: none;
+}
+
+div.questions tr.db_form_field {
+    display: block;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+div.questions td.db_form_field_description {
+    display: block;
+    text-align: left;
+}
+div.questions tr.db_form_field th {
+    width: 160px;
+}
+div.questions td.db_form_field, div.questions td.db_form_field_required {
+    display: inline-block;
+    width: 600px;
+}
+div.score {
+    text-align: center;
+    font-size: 28pt;
+}
